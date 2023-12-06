@@ -1,4 +1,4 @@
-config = [['red', 12, 0],['green', 13, 0],['blue', 14, 0]]
+config = [['red', 12, 0], ['green', 13, 0], ['blue', 14, 0]]
 f = open('day2.txt')
 totalID = 0
 totalPower = 0
@@ -33,5 +33,6 @@ for line in f:
     if possible:
         totalID += id
 
-print(totalPower)
-print(totalID)
+print("part 1",totalID)
+print("part 2",totalPower)
+
